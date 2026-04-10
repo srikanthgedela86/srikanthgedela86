@@ -38,16 +38,13 @@ body {
   margin-right: auto;
 }
 
-.section {
-  padding: 50px 20px;
-  background: white;
+.section-about {
+  background: #f8fafc;   /* soft light grey */
+  border-left: 5px solid #0d1b2a;  /* dark scientific blue */
+  padding: 50px 25px;
   margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  width: 90%;
-  max-width: 900px;
+  border-radius: 8px;
 }
-
 .section h2 {
   color: #0d1b2a;
 }
