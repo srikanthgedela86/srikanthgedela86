@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
   line-height: 1.6;
   color: #222;
   background: #f7f9fb;
@@ -44,6 +44,7 @@ body {
   border-radius: 10px;
   width: 90%;
   max-width: 900px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
 }
 
 .section-about {
@@ -73,11 +74,11 @@ body {
   line-height: 1.7;
   color: #333;
 }
-.section:nth-child(even) {
+.section-light {
   background: #ffffff;
 }
 
-.section:nth-child(odd) {
+.section-grey {
   background: #f1f5f9;
 }
 
