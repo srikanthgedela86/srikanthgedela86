@@ -1,3 +1,4 @@
+/* global page styling */
 body {
   margin: 0;
   font-family: "Segoe UI", Roboto, Arial, sans-serif;
@@ -6,12 +7,17 @@ body {
   background: #f7f9fb;
 }
 
+/*------------------------------------------*/
+
+/* Contianer */
 .container {
   width: 90%;
   max-width: 900px;
   margin: auto;
 }
+/*------------------------------------------*/
 
+/* Hero Section*/
 .hero {
   background: #0d1b2a;
   color: white;
@@ -19,17 +25,20 @@ body {
   text-align: center;
 }
 
+/* Hero Heading */ 
 .hero h1 {
   margin: 0;
   font-size: 2.8rem;
 }
 
+/* Subtitle*/ 
 .subtitle {
   font-size: 1.3rem;
   margin-top: 10px;
   color: #cbd5e1;
 }
 
+/* tagline*/
 .tagline {
   margin-top: 20px;
   font-size: 1.05rem;
@@ -102,6 +111,46 @@ body {
 
 .role-card li {
   margin-bottom: 8px;
+}
+
+/* ---------- Technical Expertise ---------- */
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.skill-card {
+  background: #ffffff;
+  border-left: 5px solid #0d1b2a;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.10);
+}
+
+.skill-card h3 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: #0d1b2a;
+  font-size: 1.2rem;
+}
+
+.skill-card ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.skill-card li {
+  margin-bottom: 10px;
+  line-height: 1.6;
 }
 
 .section-about p {
