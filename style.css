@@ -237,3 +237,18 @@ li {
   color: #666;
   font-size: 0.9rem
 }
+
+.cv-link {
+  display: inline-block;
+  background: #0d1b2a;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.cv-link:hover {
+  background: #28445f;
+}
