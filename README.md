@@ -1,1 +1,1 @@
-my work upadtes thru github 
+my website updates thru github 
